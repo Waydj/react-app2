@@ -24,7 +24,7 @@ class Main extends React.Component {
   searchMovies = (str, type = "all") => {
     fetch(
       `https://www.omdbapi.com/?apikey=ca4a8022&s=${
-        str !== "" ? `&type=${str}` : "spider-man"
+        str !== "" ? `${str}` : "spider-man"
       }${type !== "all" ? `&type=${type}` : ""}`
     )
       .then((response) => response.json())
