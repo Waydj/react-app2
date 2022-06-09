@@ -32,3 +32,8 @@ main {
 	top: 0.5em;
 	right: 0.5em;
 }
+
+.dflex{
+	display: flex;
+	justify-content: space-between;
+}
