@@ -9,7 +9,7 @@ function Movie(props) {
 					poster !== "N/A" ? (
 						<img src={poster} alt="poster" />
 					) : (
-						<img src="https://via.placeholder.com/468x200?text=Visit+Blogging.com+Now" alt="poster" />
+						<img src="https://via.placeholder.com/468x200?text=No+Image" alt="poster" />
 					)
 				}
 			</div>
